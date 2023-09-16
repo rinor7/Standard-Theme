@@ -1,0 +1,49 @@
+/* Header with Menu from Rightside*/
+
+header{
+    .header-right-menu{ 
+        nav{
+            .menu-menu-1-container{
+                    width: 100%;
+                    justify-content: center;
+                    text-align: center;
+                    display: flex;
+                    flex: 1;
+                    @media(max-width: 991.98px) {
+                        position: fixed;
+                        display: flex;
+                        right: -80%;
+                        height: 100%;
+                        width: 75%;
+                        bottom: 0;
+                        background: $white;
+                        transition: .4s ease-out;
+                    }
+                    @media(max-width: 575.98px) {
+                        width: 100%;
+                        right: -100%;
+                    }
+                ul{
+                    justify-content: center;
+                    gap: 20px;
+                }
+            }
+            .act{
+                @media(max-width: 991.98px) {
+                    position: fixed;
+                    display: flex;
+                    right: 0%;
+                    height: 100%;
+                    width: 100%;
+                    bottom: 0;
+                    background: $white;
+                    transition: .4s ease-out;
+                }
+                @media(max-width: 575.98px) {
+                    right: 0%;
+                }
+            }
+        }
+    }
+}
+/* Header Demo2 END*/

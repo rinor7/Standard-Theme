@@ -1,0 +1,84 @@
+.navbar-toggler{
+    padding: 0!important;
+    outline: unset!important;
+    border-color: unset!important;
+    border: unset!important;
+  }
+  .menu-m {
+    cursor: pointer;
+    margin: 0 auto;
+    padding-left: 1.25em;
+    position: relative;
+    width: 40px;
+    height: 25px;
+    @media(max-width: 470px) {
+      width: 33px;
+    }
+    .menu-bottom-click, .menu-top-click{
+      border-color: #eb5a5c!important;
+    }
+    span{
+    &:nth-child(1){
+      border-color: black;
+    }
+    &:nth-child(2){
+      border-color: black;
+    }
+    &:nth-child(3){
+        border-color: black;
+      }
+    }
+  }
+  .menu-global {
+    backface-visibility: hidden;
+    position: absolute;
+    left: 0;
+    border-top: 5px solid;
+    width: 100%;
+    transition: 0.44s;
+    -webkit-transition: 0.44s;
+    -moz-transition: 0.44s;
+    -ms-transition: 0.44s;
+    -o-transition: 0.44s;
+    @media(max-width: 470px) {
+      border-top: 4px solid;
+  }
+  }
+  .menu-top {
+    top: 0;
+  }
+  .menu-middle {
+    top: 12px;
+    @media(max-width: 470px) {
+      top: 10px;
+  }
+  }
+  .menu-bottom {
+    top: 24px;
+    @media(max-width: 470px) {
+      top: 20px;
+  }
+  }
+  .menu-top-click {
+    backface-visibility: hidden;
+    top: 15px;
+    transform: rotate(50deg);
+    transition: 0.44s;
+    -webkit-transition: 0.44s;
+    -moz-transition: 0.44s;
+    -ms-transition: 0.44s;
+    -o-transition: 0.44s;
+  }
+  .menu-middle-click {
+    opacity: 0;
+  }
+  .menu-bottom-click {
+    backface-visibility: hidden;
+    top: 15px;
+    transform: rotate(-410deg);
+    transition: 0.44s 0.4s;
+    -webkit-transition: 0.44s;
+    -moz-transition: 0.44s 0.4s;
+    -ms-transition: 0.44s 0.4s;
+    -o-transition: 0.44s 0.4s;
+  }

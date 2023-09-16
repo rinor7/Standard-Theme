@@ -1,0 +1,33 @@
+/* Colors and Fonts START*/
+
+
+$white: #ffffff;
+$black: #151414;
+$red: red;
+$primary: chartreuse;
+$secondary-color: #000;
+
+@mixin transition {
+    transition: .4s ease-in-out;
+    -webkit-transition: .4s ease-in-out;
+    -moz-transition: .4s ease-in-out;
+    -ms-transition: .4s ease-in-out;
+    -o-transition: .4s ease-in-out;
+}
+
+@mixin button{
+    width: 185px;
+    height: 45px;
+    border: 1px solid;
+    border-color: $black;
+    background: greenyellow;
+    color: $black;
+    text-align: center;
+    @media(max-width: 991.98px) {
+        width: 50%;
+    }
+    @media(max-width: 575.98px) {
+        width: 100%;
+    }
+}
+/* Colors and Fonts END*/

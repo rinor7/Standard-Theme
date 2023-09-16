@@ -1,0 +1,245 @@
+.ld_jobs{
+    .last-childd{
+        @media (max-width: 767.98px){
+            order: -1;
+        }
+        @media (max-width: 767.98px){
+            margin-bottom: 40px;
+        }
+        h3{
+            @media (max-width: 767.98px){
+                text-align: center;
+            }
+        }
+        p{
+            @media (max-width: 767.98px){
+                text-align: center;
+            }
+            @media (max-width: 375.98px){
+                    font-size: 11pt !important;
+            }
+        }
+    }
+}
+.ld_kontakt{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    z-index: 1;
+    .forarrow{
+        span{
+        &:after{
+            color: rgb(107, 107, 107)!important;
+            position: absolute;
+            content: "\21E3";
+            right: 1%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            @media (max-width: 375.98px){
+                font-size: 12px;
+        }
+        }
+        }
+        }
+    .txt-r{
+        @media (max-width: 991.98px){
+            margin-bottom: 40px;
+        }
+        }
+    h3{
+        margin-top: 30px;
+        @media (max-width: 375.98px){
+            font-size: 12pt!important;
+        }
+        &:first-child{
+            margin-top: 0px;
+        }
+        }
+    a{
+        margin-bottom: 0px;
+        transition: .3s ease-in-out;
+        @media (max-width: 767.98px){
+            font-size: 13pt!important;
+        }
+        @media (max-width: 375.98px){
+            font-size: 11pt!important;
+        }
+        &:hover{
+            text-decoration: none;
+        }
+        &:last-child{
+            margin-top: 35px;
+            line-height: 22pt;
+        }
+    }
+    p{
+        @media (max-width: 767.98px){
+            font-size: 13pt!important;
+        }
+        @media (max-width: 375.98px){
+            font-size: 11pt!important;
+        }
+    }
+    input, select, textarea{
+        position: relative;
+        height: 70px;
+        color: #333029;
+        font-weight: 500;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 5px;
+        -webkit-transition: all 500ms ease;
+        transition: all 500ms ease;
+        font-family: 'Work Sans', sans-serif;
+        margin-bottom: 30px;
+        outline: unset;
+        width: 100%;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        resize: none;
+        background: #f6f2eb;
+        border: 1px solid #f6f2eb;
+        color: rgb(107, 107, 107)!important;
+        font-size: 16px;
+        &::placeholder{
+            color: rgb(107, 107, 107)!important;
+        }
+    }
+    .wpcf7-textarea{
+        height: 200px;
+        font-size: 16px;
+        padding-top: 15px;
+    }
+    .ajax-loader{
+        margin: auto;
+    display: flex;
+    }
+    .wpcf7-submit{
+        width: fit-content;
+        margin: auto;
+        background: #d9a95b;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        border: 1px solid #d9a95b;;
+        transition: .4s ease-in-out;
+        -webkit-transition: .4s ease-in-out;
+        -moz-transition: .4s ease-in-out;
+        -ms-transition: .4s ease-in-out;
+        -o-transition: .4s ease-in-out;
+        z-index: 1;
+        border-radius: 35px 35px 35px 35px;
+        color: white;
+        font-family: 'Work SansB', sans-serif;
+        padding: 20px 70px;
+        &:hover{
+            transition: .3s ease-in-out;
+            -webkit-transition: .3s ease-in-out;
+            -moz-transition: .3s ease-in-out;
+            -ms-transition: .3s ease-in-out;
+            -o-transition: .3s ease-in-out;
+}
+}
+}
+
+
+.wpcf7-validation-errors{ 
+    border: 1px solid #f7e700;
+    font-size: 9pt;
+    text-align: center;
+}
+    div.wpcf7-acceptance-missing {
+    border: 1px solid #f7e700;
+    font-size: 9pt;
+    text-align: center;
+}
+.wpcf7-mail-sent-ok{
+    border: 1px solid #398f14;
+    font-size: 9pt;
+    text-align: center;
+}
+.wpcf7-not-valid-tip{
+    display: none!important;
+}
+
+.upload-file-219, .upload-file-495{
+    .codedropz-upload-wrapper{
+       .codedropz-upload-handler{
+        margin-bottom: 20px;
+        span{
+            color: rgb(107, 107, 107)!important;
+        }
+        .codedropz-upload-container{
+            background: #f6f2eb;
+            .codedropz-upload-inner{
+                h3{
+                    color: #767676!important;
+                    @media (max-width: 767.98px){
+                        font-size: 12pt!important;
+                    }
+                    @media (max-width: 575.98px){
+                        display: none;
+                    }
+                }
+                span{
+                    color: #767676;
+                    @media (max-width: 575.98px){
+                        display: none;
+                    }
+                }
+                .codedropz-btn-wrap{
+                    .cd-upload-btn{
+                        padding: 2px 10px;
+                        border: 1px solid #d9a95b;
+                        color: white;
+                        margin-top: 2px;
+                        background-color: #d9a95b;
+                    }
+                }
+            }
+        }
+       } 
+    }
+}
+
+
+.jobspp{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    .intro-title{
+        text-align: center;
+        h5{
+            position: relative;
+            display: inline-block;
+            color: #84827d;
+            font-size: 24px;
+            line-height: 1.0em;
+            font-weight: 500;
+            text-align: center;
+            &:before{
+                position: absolute;
+                left: 0;
+                bottom: -4px;
+                right: 0;
+                height: 2px;
+                content: "";
+                background: #d9a95b;
+            }
+        }
+        h4{
+            color: #84827c;
+            font-size: 24px;
+            line-height: 34px;
+            font-weight: 500;
+            font-family: 'Work SansB', sans-serif;
+            position: relative;
+            display: block;
+            margin-bottom: 50px;
+            margin-top: 50px;
+        }
+    }
+}

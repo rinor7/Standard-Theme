@@ -1,0 +1,83 @@
+/* Header Demo1*/
+header{
+    @media(max-width: 991.98px) {
+        // position: fixed;
+        width: 100%;
+        overflow: hidden;
+    }
+    .topbar{
+            height: 30px;
+            background: $white;
+            display: flex;
+            align-items: center;
+            .topbar-dir{
+                gap: 20px;
+                .rightside_head-btn{
+                    li{ 
+                        select{
+                            background: transparent;
+                            color: $black;
+                            font-size: 14px;
+                            font-family: 'Lato-Regular';
+                            border: unset;
+                            option{
+                                color: $black;
+                            }
+                        }
+                        .textwidget {
+                            color: $white;
+                            font-size: 14px;
+                            font-family: 'Lato-Regular';
+                        }
+                    }
+                }
+            ul{
+                display: flex;
+                justify-content: flex-end;
+                gap: 20px;
+                li{
+                    a{
+                        color: $black;
+                        font-size: 14px;
+                        font-family: 'Lato-Regular';
+                    }
+                }
+            }
+        }
+    }
+    .header-demo1{
+        background: $white;
+        align-items: center;
+        display: flex;
+        padding: 10px 0;
+        @include transition;
+        nav{
+            padding-top: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+            .collapsing{
+                position: relative;
+                overflow: hidden;
+                height: 0;
+                transition: height .35s ease;
+            }
+            #navbarNav{
+                text-align: center;
+                flex-direction: column;
+                transition: .4s ease-in-out;
+                .navbar-nav{
+                    padding-bottom: 20px;
+                    padding-top: 30px;
+                    gap: 20px;
+                    width: 100%;
+                    li{
+                        color: $black;
+                        @include transition;
+                    }
+                }
+            }
+        }
+    }
+}
+/* Header Demo2 END*/

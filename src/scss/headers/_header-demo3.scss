@@ -1,0 +1,30 @@
+/* Header Demo3*/
+
+header{
+    .header-demo3{
+        background: $white;
+        align-items: center;
+        display: flex;
+        padding: 10px 0;
+        @include transition;
+        nav{
+            padding-top: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+            #navbarNav{
+                text-align: center;
+                flex-direction: column;
+                transition: .4s ease-in-out;
+                .navbar-nav{
+                    gap: 20px;
+                    li{
+                        color: $black;
+                        @include transition;
+                    }
+                }
+            }
+        }
+    }
+}
+/* Header Demo3 END*/

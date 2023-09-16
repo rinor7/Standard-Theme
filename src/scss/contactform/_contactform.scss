@@ -1,0 +1,59 @@
+/* CF 1 START*/
+.contact-form-1{
+    background: $white;
+    border-radius: 8px;
+    margin: 12px 0;
+    @media(max-width: 991.98px) {
+        margin: 24px 0;
+    }
+    .widgettitle{
+        padding: 32px 32px 0px 32px;
+        @media(max-width: 991.98px) {
+            padding: 24px 24px 0px 24px;
+        }
+    }
+    form{
+        padding: 32px;
+        @media(max-width: 991.98px) {
+            padding: 24px;
+        }
+        .wpcf7-response-output{
+            display: none;
+        }
+        p{
+            margin-bottom: 8px;
+            &:nth-last-child(-n+3){
+                margin-bottom: 0;
+            }
+        }
+        label{
+            width: 100%;
+            font-size: 16px;
+            input, textarea, select{
+                width: 100%;
+                border-radius: 0;
+                border: 0;
+                border-bottom: 1px solid $black;
+                font-size: 16px;
+            }
+            textarea{
+                max-height: 120px;
+            }
+            .wpcf7-not-valid-tip, .wpcf7-response-output{
+                display: none;
+            }
+            .wpcf7-not-valid{
+                border-bottom: 1px solid $red;
+            }
+        }
+        .wpcf7-submit{
+            border: unset!important;
+           @include button;
+            margin-top: 20px;
+        }
+        .wpcf7-spinner{
+            display: none;
+        }
+    }
+}
+/* CF 1 END*/
